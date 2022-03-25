@@ -30,9 +30,9 @@ base = os.environ['nnUNet_raw_data_base'] if "nnUNet_raw_data_base" in os.enviro
 preprocessing_output_dir = os.environ['nnUNet_preprocessed'] if "nnUNet_preprocessed" in os.environ.keys() else None
 network_training_output_dir_base = os.path.join(os.environ['RESULTS_FOLDER']) if "RESULTS_FOLDER" in os.environ.keys() else None
 
-base = "/workspace/nnUNet-master/nnUNet_base/"
-preprocessing_output_dir = "/workspace/nnUNet-master/nnUNet_preprocessed/"
-network_training_output_dir_base = "/workspace/nnUNet-master/RESULTS_FOLDER/"
+base = "nnUNet_base/"
+preprocessing_output_dir = "nnUNet_preprocessed/"
+network_training_output_dir_base = "RESULTS_FOLDER/"
 
 if base is not None:
     nnUNet_raw_data = join(base, "nnUNet_raw_data")
