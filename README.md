@@ -7,6 +7,6 @@ A modification code based on nnUNet (https://github.com/MIC-DKFZ/nnUNet)
 - Prediction [2_NNUNET_Prediction.ipynb](https://github.com/kevinkwshin/nnUNet_NonLocal_WS/blob/main/0_NNUNET_Preprocess.ipynb)
 - Evaluation [3_NNUNET_Prediction.ipynb](https://github.com/kevinkwshin/nnUNet_NonLocal_WS/blob/main/0_NNUNET_Preprocess.ipynb)
 
-# Code modified
+# Code modified from original nnUNet
 generic_Unet.py Non_Local
 
