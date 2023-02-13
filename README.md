@@ -17,3 +17,4 @@ network_training_output_dir_base = "RESULTS_FOLDER/"
 # Code modified from original nnUNet
 generic_Unet.py Non_Local
 
+2022.08.01.
